@@ -1,0 +1,67 @@
+.container{
+    background: #070707;
+}
+
+header div ul li a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    border-radius: 50px;
+    background: #0f0f0f98;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+li{ 
+    padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10%;
+    list-style-type:none;
+}
+li:hover{
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.div_descarga{
+    float: right;
+    a{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+}
+
+.imagen{
+    width: 250px;
+    border-radius: 50%;
+}
+#sobre_mi{
+    margin-top: 100px;
+}
+
+#descripcion{
+    margin-top: 20px;
+    text-align:start ;
+    margin-top: 20px;
+    color: white;
+}
+
+#habilidades{
+    color: white;
+    div{
+        p{
+            display: grid;
+            place-items: center;
+        }
+    }
+}
+
+.icon{
+    font-size: 30px;
+}
