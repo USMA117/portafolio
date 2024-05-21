@@ -1,11 +1,27 @@
 .container{
     background: #070707;
 }
+*{
+    scrollbar-color: #0f0f0f #070707;
+    scrollbar-width:thin;
+}
 
-header div ul li a{
+.navbar-opcion{
     text-decoration: none;
     color: white;
+    width: 100%;
 }
+
+.navbar-opcion:hover{
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    border-radius: 20px;
+    font-weight: bold;
+    padding:10px;
+    padding-inline: 10px;
+    background: rgba(0, 0, 0, 0);
+    cursor:pointer ;
+}
+
 header{
     border-radius: 50px;
     background: #0f0f0f98;
@@ -22,13 +38,10 @@ li{
     margin-right: 10%;
     list-style-type:none;
 }
-li:hover{
-    border: 1px solid white;
-    background: rgba(0, 0, 0, 0);
-}
 
 .div_descarga{
     float: right;
+    margin-right: 5%;
     a{
         color: white;
         font-size: 20px;
@@ -36,7 +49,9 @@ li:hover{
         
     }
 }
-
+.div_descarga a:hover{
+    font-size: 25px;
+}
 .imagen{
     width: 250px;
     border-radius: 50%;
@@ -63,5 +78,45 @@ li:hover{
 }
 
 .icon{
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.input_form_contacto{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background: #0f0f0f;
+    color: white;
+    padding-left: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.mensaje_form_textarea{
+    height: 200px;
+}
+
+.label_mensaje{
+    font-size: 20px;
+}
+
+.btn_enviar_mensaje{
+    background: #0f0f0f;
+    border-radius: 10px;
+    padding-inline: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.btn_enviar_mensaje:hover{
+    background: rgba(255, 255, 255, 0.295);
+    font-weight: bold;
+}
+.icon_redes{
+    text-decoration: none;
+    color: rgba(78, 78, 78, 0.699);
+}
+
+.icon_redes:hover{
+    color: rgba(255, 255, 255, 0.568);
 }
