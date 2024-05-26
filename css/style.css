@@ -11,13 +11,14 @@
     color: white;
     width: 100%;
     margin: 5px;
-}
-.navbar-opcion:hover{
-    border: 1px solid rgba(255, 255, 255, 0.616);
     border-radius: 20px;
     font-weight: bold;
     padding:5px;
     padding-inline: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.navbar-opcion:hover{
+    border: 1px solid rgba(255, 255, 255, 0.616);
     background: rgba(0, 0, 0, 0);
     cursor:pointer ;
 }
@@ -44,15 +45,37 @@ li{
     float: right;
     margin-right: 5%;
     a{
-        color: white;
-        font-size: 20px;
+        color: rgba(78, 78, 78, 0.699);
+        font-size: 16px;
         font-weight: bold;
         
     }
 }
-.div_descarga a:hover{
-    font-size: 25px;
+#btn_descargar_cv{
+    /* background: #e23636; */
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 2px solid rgba(78, 78, 78, 0.699);
+    animation: borde 3s infinite;
 }
+#btn_descargar_cv:hover{
+    color: rgb(107, 105, 105);
+    border: 2px solid rgb(107, 105, 105);
+}
+
+@keyframes borde {
+    from{
+        border-color: rgb(107, 105, 105);
+    }to{
+        border-color: rgb(150, 150, 150);
+        color: rgb(150, 150, 150);
+    }
+}
+/* .div_descarga a:hover{
+    font-size: 25px;
+} */
 .imagen{
     width: 200px;
     border-radius: 50%;
@@ -120,6 +143,7 @@ li{
     text-decoration: none;
     font-size: 40px;
     color: rgba(78, 78, 78, 0.699);
+    animation: borde 3s infinite;
 }
 
 .icon_redes:hover{
