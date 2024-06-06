@@ -30,7 +30,6 @@
     height: 120%;
     padding: 3%;
     border-radius: 20px;
-    background:  rgba(26, 26, 26, 0.699);
 }
 /* 
 li{ 
@@ -104,10 +103,36 @@ li{
 .icon{
     font-size: 40px;
     margin-bottom: 5px;
-    border: 1px solid #0f0f0f;
+    /* border: 1px solid #0f0f0f; */
     padding: 5px;
 }
-
+.div_habilidad{
+    background: rgba(0, 0, 0, 0.637);
+}
+.div_html{
+    box-shadow: 1px 1px 5px 0.1px orangered;
+}
+.div_css{
+    box-shadow: 1px 1px 5px 0.1px rgb(20, 72, 184);
+}
+.div_bootstrap {
+    box-shadow: 1px 1px 5px 0.1px purple;
+}
+.div_js {
+    box-shadow: 1px 1px 5px 0.1px yellow;
+}
+.div_java {
+    box-shadow: 1px 1px 5px 0.1px red;
+}
+.div_python {
+    box-shadow: 1px 1px 5px 0.1px rgb(0, 14, 94);
+}
+.div_laravel {
+    box-shadow: 1px 1px 5px 0.1px rgb(122, 1, 1);
+}
+.div_sql {
+    box-shadow: 1px 1px 5px 0.1px rgba(255, 208, 0, 0.925);
+}
 .input_form_contacto{
     width: 100%;
     height: 40px;
@@ -128,15 +153,17 @@ li{
 }
 
 .btn_enviar_mensaje{
-    background: #0f0f0f;
+    background: #000000;
     border-radius: 10px;
     padding-inline: 10px;
     padding: 10px;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    border: none;
+    border:1px solid rgba(53, 51, 51, 0.726);
 }
 .btn_enviar_mensaje:hover{
-    background: rgba(255, 255, 255, 0.295);
+    background: rgba(53, 53, 53, 0.295);
     font-weight: bold;
 }
 .icon_redes{
