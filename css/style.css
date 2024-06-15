@@ -108,6 +108,7 @@ li{
 }
 .div_habilidad{
     background: rgba(0, 0, 0, 0.637);
+    width: 100%;
 }
 .div_html{
     box-shadow: 1px 1px 5px 0.1px orangered;
