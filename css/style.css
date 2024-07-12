@@ -179,3 +179,9 @@ li{
 .icon_redes:hover{
     color: rgba(255, 255, 255, 0.568);
 }
+
+@media (min-width: 960px){
+    .imagen_proyecto{
+        height: 320px;
+    }
+}
