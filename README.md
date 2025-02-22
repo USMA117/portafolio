@@ -10,7 +10,7 @@ Portafolio personal que muestra mis proyectos, habilidades y trayectoria como de
 - JavaScript
 
 ## 🌐 Sitio Web
-[Ver Portafolio en Vivo]([https://portfolio-delta-inky-24.vercel.app/](https://usma117.github.io/portafolio/))
+[Ver Portafolio en Vivo](https://usma117.github.io/portafolio/)
 
 ## 📫 Contacto
 - Email: [johan58usma@gmail.com]
