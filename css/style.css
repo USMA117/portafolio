@@ -4,6 +4,11 @@
 *{
     scrollbar-color: #0f0f0f #070707;
     scrollbar-width:thin;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .navbar-opcion{
@@ -41,8 +46,6 @@ li{
 } */
 
 .div_descarga{
-    float: right;
-    margin-right: 5%;
     a{
         color: rgba(78, 78, 78, 0.699);
         font-size: 16px;
@@ -80,7 +83,7 @@ li{
     border-radius: 50%;
 }
 #sobre_mi{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 #descripcion{
@@ -184,4 +187,12 @@ li{
     .imagen_proyecto{
         height: 320px;
     }
+}
+
+.proyecto {
+    transition: transform 0.2s ease-in-out;
+}
+
+.proyecto:hover {
+    transform: scale(1.1);
 }
