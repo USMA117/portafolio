@@ -115,6 +115,15 @@ li{
     background: rgba(0, 0, 0, 0.637);
     width: 100%;
 }
+
+.texto_habilidad{
+    font-size: 10px; 
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 0.5px; 
+    color: #dbd7d7;
+}
+
 .div_html{
     box-shadow: 1px 1px 5px 0.1px orangered;
 }
